@@ -12,3 +12,47 @@ RGBA
 HEX
 HSL
 HSLA */
+
+
+
+#box{
+    /* height: 200px; */
+    width: 100px;
+    /* padding: 5px 10px 15px 20px; */
+    /* padding: 0px 0px 0px 5px; */
+    margin: 100px;
+    border: 2px solid black;
+}
+#name{
+    color: aqua;
+    /* letter-spacing: 10px; */
+    word-spacing: 50px;
+}
+
+.para{
+    /* text-indent: 50px; */
+    border: 1px solid black;
+    text-align:center;
+    text-transform:uppercase;
+    /* text-shadow: 50px; */
+    text-decoration:wavy;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+}
+#circle{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: green;
+}
