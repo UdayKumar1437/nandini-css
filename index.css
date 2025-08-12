@@ -92,3 +92,28 @@ img{
     filter:invert(100%);
     filter:opacity(10%)
 }
+
+#bg{
+    /* background-color: yellow; */
+    background-image: url("https://mixingimages.in/wp-content/uploads/2023/09/Birds-Wallpaper.jpg"),url("https://images.pexels.com/photos/1553463/pexels-photo-1553463.jpeg?cs=srgb&dl=avian-birds-evening-1553463.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    /* background-position: top right; */
+    background-position: bottom, top;
+    background-size: 20% 10%;
+    /* background-position: 100% 100%; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+}
+
+ul{
+    list-style-type:circle;
+}
+ol{
+    list-style: upper-alpha;
+}
+ol li{
+    color: yellow;
+}
+ol{
+    background-color: blue;
+}
