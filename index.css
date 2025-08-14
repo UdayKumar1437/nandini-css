@@ -117,3 +117,27 @@ ol li{
 ol{
     background-color: blue;
 }
+
+caption{
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    height: 100px;
+    width: 500px;
+    /* border-spacing: 30px; */
+    empty-cells: hide;
+}
+td{
+    border: 1px solid black;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+thead {
+    font-weight: 600;
+    height: 40px;
+}
