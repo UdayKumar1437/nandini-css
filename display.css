@@ -1,0 +1,50 @@
+/* block
+1) New line
+2)full width (100% screen)
+3)apply height and width
+
+inline
+1) not start in New line
+2)doesn't take full width (100% screen)
+3)can't specify apply height and width
+
+inline-block
+1)not start in New line
+2)doesn't take full width (100% screen)
+3)apply height and width */
+
+
+/* h1{
+    display: inline;
+    height: 500px;
+    border: 1px solid black;
+}
+p{
+    display: inline-block;
+    width: 500px;
+    border: 1px solid black;
+}
+i{
+    display: block;
+    height: 500px;
+    border: 1px solid black;
+}
+b{
+    border: 1px solid black;
+} */
+
+/* img{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    object-fit: contain;
+    object-position: top;
+} */
+
+#nandini{
+    width: 300px;
+    height: 1050px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
